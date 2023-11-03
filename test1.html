@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="mx-auto container items-center mt-8 md:w-[672px] w-auto p-3">
+      <div class="justify-center">
+        <h1 class="mb-10 font-bold italic text-5xl text-blue-800">
+          Send your parcel
+        </h1>
+      </div>
+      <div class="md:p-6 p-5 mt-10 mb-10 flex flex-col  bg-blue-50 rounded-lg">
+        <div class="flex flex-row justify-between">
+          <div class="flex">
+            <img
+              alt=""
+              class="h-7 pr-2"
+              src="https://cdn.ship24.com/assets/images/shipfromchina/s-24-lock.svg"
+            />
+            <span class="pt-1">Supported payment methods</span>
+          </div>
+          <div class="pl-9">
+            <img
+              alt=""
+              src="https://cdn.ship24.com/assets/images/payment/stripe.svg"
+            />
+          </div>
+        </div>
+        <div class="flex flex-row justify-between flex-wrap px-8 pt-8">
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/visa.svg"
+          />
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/mastercard.svg"
+          />
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/maestro.svg"
+          />
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/american-express.svg"
+          />
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/union-pay.svg"
+          />
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/we-chat-pay.svg"
+          />
+          <img
+            alt=""
+            src="https://cdn.ship24.com/assets/images/payment/alipay.svg"
+          />
+        </div>
+      </div>
+      <form class="border-1 p-5 mt-6 mb-6 border rounded-lg">
+        <div class="text-2xl font-bold flex flex-row cursor-pointer">
+          <span class="text-indigo-600">01.</span>
+          <span class="text-blue-800">&nbsp;Sender &amp; pickup</span>
+        </div>
+        <div class="mt-6 mb-6">
+          Please complete the pickup address information. After placing your
+          order, you will be called by our pickup partner ZTO/中通快递 to
+          schedule a convenient pickup time for you.
+        </div>
+        <div>
+          <div class="w-full mb-3 px-0">
+            <label
+              class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+              >Name</label
+            >
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <input
+                class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                type="text"
+                style="padding-left: 16px"
+              />
+            </div>
+          </div>
+          <div class="w-full mb-3 px-0">
+            <label
+              class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+              >Email</label
+            >
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <input
+                class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                type="text"
+                style="padding-left: 16px"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="w-full mb-3 px-0">
+              <label
+                class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+                >Chinese mobile number</label
+              >
+              <div class="mt-1 relative rounded-md shadow-sm">
+                <input
+                  class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                  type="text"
+                  value=""
+                  required="true"
+                  style="padding-left: 16px"
+                />
+              </div>
+            </div>
+            <div class="w-full mb-3 px-0">
+              <label
+                class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+                >Chinese ID Card or passport number</label
+              >
+              <div class="mt-1 relative rounded-md shadow-sm">
+                <input
+                  class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                  type="text"
+                  value=""
+                  required="true"
+                  style="padding-left: 16px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div class="w-full mb-3 px-0">
+              <label
+                class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+                >Province</label
+              >
+              <div class="mt-1 relative rounded-md shadow-sm">
+                <select
+                  class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                >
+                </select>
+              </div>
+            </div>
+            <div class="w-full mb-3 px-0">
+              <label
+                class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+                >City</label
+              >
+              <div class="mt-1 relative rounded-md shadow-sm">
+                <select
+                  class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                >
+                </select>
+              </div>
+            </div>
+            <div class="w-full mb-3 px-0">
+                <label
+                  class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+                  >District</label
+                >
+                <div class="mt-1 relative rounded-md shadow-sm">
+                  <select
+                    class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                  >
+                  </select>
+                </div>
+              </div>
+          </div>
+          <div class="w-full mb-3 px-0">
+            <label
+              class="block tracking-wide text-gray-700 text-xs font-pro-text font-medium mb-1"
+              >Address (in Chinese)</label
+            >
+            <div class="mt-1 relative rounded-md shadow-sm">
+              <input
+                class="block w-full text-gray-700 border rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring"
+                type="text"
+                style="padding-left: 16px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-end">
+          <div class="flex-grow"></div>
+          <button
+            class="transition focus:outline-none text-sm leading-none rounded-full font-medium italic border-1 border-blue-800 hover:border-indigo-500 active:border-indigo-600 focus:border-indigo-500 bg-blue-800 hover:bg-indigo-500 active:bg-indigo-600 focus:bg-indigo-500 text-white px-5 py-3"
+          >
+            <span>Next</span>
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
